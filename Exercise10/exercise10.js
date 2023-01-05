@@ -17,7 +17,7 @@ function multiply(){
     }else{
         let msg;
         let result = number1*number2;
-        msg = `The result is: ${Math.round(result)}`;
+        msg = `The result is: ${(result)}`;
         info.textContent = msg;
     }
 }
@@ -32,7 +32,7 @@ function divide(){
     }else{
         let msg;
         let result = number1/number2;
-        msg = `The result is: ${Math.round(result,2)}`;
+        msg = `The result is: ${(result)}`;
         info.textContent = msg
     }
     
