@@ -1,0 +1,8 @@
+
+.content{
+    display: grid;
+    margin: 2% 2% 2% 2%;
+    padding: 2% 2% 2% 2%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(195, 192, 34) 0%, rgb(45, 83, 253) 100%);
+}
